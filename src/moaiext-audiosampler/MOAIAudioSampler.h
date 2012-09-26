@@ -25,7 +25,8 @@ private:
     static int		_read					( lua_State* L );
     static int		_stop					( lua_State* L );
     static int		_pause					( lua_State* L );
-    static int		_resume					( lua_State* L );        
+    static int		_resume					( lua_State* L );
+    static int		_flush					( lua_State* L );
 
     u32 mNumFrequency;
     u32 mNumChannels;
