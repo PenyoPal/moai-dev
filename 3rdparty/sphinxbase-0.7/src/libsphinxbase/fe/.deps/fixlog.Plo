@@ -1,0 +1,74 @@
+fixlog.lo fixlog.o: fixlog.c ../../../include/config.h \
+  ../../../include/sphinxbase/prim_type.h \
+  ../../../include/sphinx_config.h ../../../include/sphinxbase/fixpoint.h \
+  /usr/include/limits.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_symbol_aliasing.h \
+  /usr/include/sys/_posix_availability.h /usr/include/machine/limits.h \
+  /usr/include/i386/limits.h /usr/include/i386/_limits.h \
+  /usr/include/sys/syslimits.h \
+  ../../../include/sphinxbase/sphinxbase_export.h \
+  ../../../include/sphinxbase/prim_type.h fe_internal.h \
+  ../../../include/sphinxbase/fe.h ../../../include/sphinxbase/cmd_ln.h \
+  /usr/include/stdio.h /usr/include/Availability.h \
+  /usr/include/AvailabilityInternal.h /usr/include/_types.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/i386/_types.h /usr/include/secure/_stdio.h \
+  /usr/include/secure/_common.h \
+  /Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/stdarg.h \
+  ../../../include/sphinxbase/fixpoint.h
+
+../../../include/config.h:
+
+../../../include/sphinxbase/prim_type.h:
+
+../../../include/sphinx_config.h:
+
+../../../include/sphinxbase/fixpoint.h:
+
+/usr/include/limits.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/sys/_symbol_aliasing.h:
+
+/usr/include/sys/_posix_availability.h:
+
+/usr/include/machine/limits.h:
+
+/usr/include/i386/limits.h:
+
+/usr/include/i386/_limits.h:
+
+/usr/include/sys/syslimits.h:
+
+../../../include/sphinxbase/sphinxbase_export.h:
+
+../../../include/sphinxbase/prim_type.h:
+
+fe_internal.h:
+
+../../../include/sphinxbase/fe.h:
+
+../../../include/sphinxbase/cmd_ln.h:
+
+/usr/include/stdio.h:
+
+/usr/include/Availability.h:
+
+/usr/include/AvailabilityInternal.h:
+
+/usr/include/_types.h:
+
+/usr/include/sys/_types.h:
+
+/usr/include/machine/_types.h:
+
+/usr/include/i386/_types.h:
+
+/usr/include/secure/_stdio.h:
+
+/usr/include/secure/_common.h:
+
+/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/stdarg.h:
+
+../../../include/sphinxbase/fixpoint.h:

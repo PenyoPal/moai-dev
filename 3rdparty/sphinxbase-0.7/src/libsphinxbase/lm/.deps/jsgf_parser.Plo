@@ -1,0 +1,154 @@
+jsgf_parser.lo jsgf_parser.o: jsgf_parser.c /usr/include/stdio.h \
+  /usr/include/sys/cdefs.h /usr/include/sys/_symbol_aliasing.h \
+  /usr/include/sys/_posix_availability.h /usr/include/Availability.h \
+  /usr/include/AvailabilityInternal.h /usr/include/_types.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/i386/_types.h /usr/include/secure/_stdio.h \
+  /usr/include/secure/_common.h /usr/include/string.h \
+  /usr/include/strings.h /usr/include/secure/_string.h \
+  ../../../include/sphinxbase/hash_table.h \
+  ../../../include/sphinxbase/sphinxbase_export.h \
+  ../../../include/sphinxbase/prim_type.h \
+  ../../../include/sphinx_config.h ../../../include/sphinxbase/glist.h \
+  /usr/include/stdlib.h /usr/include/sys/wait.h /usr/include/sys/signal.h \
+  /usr/include/sys/appleapiopts.h /usr/include/machine/signal.h \
+  /usr/include/i386/signal.h /usr/include/i386/_structs.h \
+  /usr/include/sys/_structs.h /usr/include/machine/_structs.h \
+  /usr/include/mach/i386/_structs.h /usr/include/sys/resource.h \
+  /usr/include/machine/endian.h /usr/include/i386/endian.h \
+  /usr/include/sys/_endian.h /usr/include/libkern/_OSByteOrder.h \
+  /usr/include/libkern/i386/_OSByteOrder.h /usr/include/alloca.h \
+  /usr/include/machine/types.h /usr/include/i386/types.h \
+  /usr/include/i386/_types.h ../../../include/sphinxbase/ckd_alloc.h \
+  /usr/include/setjmp.h /usr/include/machine/setjmp.h \
+  /usr/include/i386/setjmp.h ../../../include/sphinxbase/err.h \
+  /Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/stdarg.h \
+  /usr/include/errno.h /usr/include/sys/errno.h jsgf_internal.h \
+  ../../../include/sphinxbase/fsg_model.h \
+  ../../../include/sphinxbase/logmath.h \
+  ../../../include/sphinxbase/cmd_ln.h \
+  ../../../include/sphinxbase/bitvec.h \
+  ../../../include/sphinxbase/listelem_alloc.h \
+  ../../../include/sphinxbase/strfuncs.h \
+  ../../../include/sphinxbase/jsgf.h jsgf_parser.h jsgf_scanner.h \
+  /usr/include/inttypes.h /usr/include/stdint.h
+
+/usr/include/stdio.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/sys/_symbol_aliasing.h:
+
+/usr/include/sys/_posix_availability.h:
+
+/usr/include/Availability.h:
+
+/usr/include/AvailabilityInternal.h:
+
+/usr/include/_types.h:
+
+/usr/include/sys/_types.h:
+
+/usr/include/machine/_types.h:
+
+/usr/include/i386/_types.h:
+
+/usr/include/secure/_stdio.h:
+
+/usr/include/secure/_common.h:
+
+/usr/include/string.h:
+
+/usr/include/strings.h:
+
+/usr/include/secure/_string.h:
+
+../../../include/sphinxbase/hash_table.h:
+
+../../../include/sphinxbase/sphinxbase_export.h:
+
+../../../include/sphinxbase/prim_type.h:
+
+../../../include/sphinx_config.h:
+
+../../../include/sphinxbase/glist.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/sys/wait.h:
+
+/usr/include/sys/signal.h:
+
+/usr/include/sys/appleapiopts.h:
+
+/usr/include/machine/signal.h:
+
+/usr/include/i386/signal.h:
+
+/usr/include/i386/_structs.h:
+
+/usr/include/sys/_structs.h:
+
+/usr/include/machine/_structs.h:
+
+/usr/include/mach/i386/_structs.h:
+
+/usr/include/sys/resource.h:
+
+/usr/include/machine/endian.h:
+
+/usr/include/i386/endian.h:
+
+/usr/include/sys/_endian.h:
+
+/usr/include/libkern/_OSByteOrder.h:
+
+/usr/include/libkern/i386/_OSByteOrder.h:
+
+/usr/include/alloca.h:
+
+/usr/include/machine/types.h:
+
+/usr/include/i386/types.h:
+
+/usr/include/i386/_types.h:
+
+../../../include/sphinxbase/ckd_alloc.h:
+
+/usr/include/setjmp.h:
+
+/usr/include/machine/setjmp.h:
+
+/usr/include/i386/setjmp.h:
+
+../../../include/sphinxbase/err.h:
+
+/Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/stdarg.h:
+
+/usr/include/errno.h:
+
+/usr/include/sys/errno.h:
+
+jsgf_internal.h:
+
+../../../include/sphinxbase/fsg_model.h:
+
+../../../include/sphinxbase/logmath.h:
+
+../../../include/sphinxbase/cmd_ln.h:
+
+../../../include/sphinxbase/bitvec.h:
+
+../../../include/sphinxbase/listelem_alloc.h:
+
+../../../include/sphinxbase/strfuncs.h:
+
+../../../include/sphinxbase/jsgf.h:
+
+jsgf_parser.h:
+
+jsgf_scanner.h:
+
+/usr/include/inttypes.h:
+
+/usr/include/stdint.h:
