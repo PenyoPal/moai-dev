@@ -191,6 +191,8 @@
 	#include <moaicore/MOAIUrlMgrNaCl.h>
 #endif
 
+#include <moaiext-sphinx/MOAISphinx.h>
+
 #include <moaicore/MOAILuaState-impl.h>
 
 //================================================================//

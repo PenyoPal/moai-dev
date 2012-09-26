@@ -228,6 +228,8 @@ void moaicore::InitGlobals ( MOAIGlobals* globals ) {
 		REGISTER_LUA_CLASS ( MOAIHttpTaskNaCl )
 	#endif
 	
+	REGISTER_LUA_CLASS ( MOAISphinx )
+	
 	MOAIEnvironment::Get ().DetectEnvironment ();
 }
 
