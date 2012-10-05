@@ -1642,8 +1642,6 @@
 		1AC75B3B1613C8D300570547 /* jsgf_parser.y in Sources */ = {isa = PBXBuildFile; fileRef = 1A1DBF691613A8BE006C6355 /* jsgf_parser.y */; };
 		1AC75B3C1613C8F400570547 /* _jsgf_scanner.l in Sources */ = {isa = PBXBuildFile; fileRef = 1A1DBF631613A8BE006C6355 /* _jsgf_scanner.l */; };
 		1AC75B3D1613C90700570547 /* tied_mgau_common.h in Sources */ = {isa = PBXBuildFile; fileRef = 1A1DBE6F1613A8BC006C6355 /* tied_mgau_common.h */; };
-		1AC75B411613C98000570547 /* MOAISphinx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AC75B3F1613C98000570547 /* MOAISphinx.cpp */; };
-		1AC75B421613C98000570547 /* MOAISphinx.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AC75B401613C98000570547 /* MOAISphinx.h */; };
 		1AC75B501613F9BD00570547 /* fe_interface.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A1DBF381613A8BE006C6355 /* fe_interface.c */; };
 		660EBB04160D184A000B1203 /* Crittercism.h in Headers */ = {isa = PBXBuildFile; fileRef = 660EBB03160D184A000B1203 /* Crittercism.h */; };
 		660EBB05160D184A000B1203 /* Crittercism.h in Headers */ = {isa = PBXBuildFile; fileRef = 660EBB03160D184A000B1203 /* Crittercism.h */; };
@@ -12941,7 +12939,6 @@
 				660EBB54160D1859000B1203 /* PLCrashReportThreadInfo.h in Headers */,
 				660EBB56160D1859000B1203 /* PLCrashSignalHandler.h in Headers */,
 				660EBB58160D1859000B1203 /* PLCrashSysctl.h in Headers */,
-				1AC75B421613C98000570547 /* MOAISphinx.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -15568,7 +15565,6 @@
 				E9DE4582157EA38800630A7D /* MOAIMoviePlayerIOS.mm in Sources */,
 				0755161F15A6C20E00161409 /* USMD5Writer.cpp in Sources */,
 				0755162615A6CA2D00161409 /* MOAIHashWriter.cpp in Sources */,
-				1AC75B411613C98000570547 /* MOAISphinx.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -16264,6 +16260,7 @@
 					OPENSSL_NO_STORE,
 					DISABLE_CRITTERCISM,
 					DISABLE_FACEBOOK,
+					DISABLE_SPHINX,
 				);
 				GCC_STRICT_ALIASING = YES;
 				GCC_THREADSAFE_STATICS = NO;
@@ -16376,6 +16373,7 @@
 					DISABLE_TAPJOY,
 					DISABLE_CRITTERCISM,
 					DISABLE_FACEBOOK,
+					DISABLE_SPHINX,
 				);
 				PRODUCT_NAME = "moai-ios";
 				SDKROOT = iphoneos;
@@ -16412,6 +16410,7 @@
 					DISABLE_TAPJOY,
 					DISABLE_CRITTERCISM,
 					DISABLE_FACEBOOK,
+					DISABLE_SPHINX,
 				);
 				PRODUCT_NAME = "moai-ios";
 				SDKROOT = iphoneos;
@@ -17120,6 +17119,7 @@
 					OPENSSL_NO_STORE,
 					DISABLE_FACEBOOK,
 					DISABLE_CRITTERCISM,
+					DISABLE_SPHINX,
 				);
 				GCC_STRICT_ALIASING = YES;
 				GCC_THREADSAFE_STATICS = NO;
@@ -18220,6 +18220,7 @@
 					OPENSSL_NO_RC5,
 					OPENSSL_NO_RFC3779,
 					OPENSSL_NO_STORE,
+					DISABLE_SPHINX,
 				);
 				GCC_STRICT_ALIASING = YES;
 				GCC_THREADSAFE_STATICS = NO;

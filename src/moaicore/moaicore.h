@@ -191,7 +191,9 @@
 	#include <moaicore/MOAIUrlMgrNaCl.h>
 #endif
 
-#include <moaiext-sphinx/MOAISphinx.h>
+#ifndef DISABLE_SPHINX
+	#include <moaiext-sphinx/MOAISphinx.h>
+#endif
 
 #include <moaicore/MOAILuaState-impl.h>
 

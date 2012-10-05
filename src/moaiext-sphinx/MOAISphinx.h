@@ -1,6 +1,8 @@
 #ifndef MOAISPHINX_H
 #define MOAISPHINX_H
 
+#ifndef DISABLE_SPHINX
+
 #include <moaicore/moaicore.h>
 #include <pocketsphinx.h>
 
@@ -16,11 +18,13 @@ class MOAISphinx : public MOAIGlobalClass< MOAISphinx, MOAILuaObject > {
 
   public:
 	DECL_LUA_SINGLETON(MOAISphinx)
-	
+
     MOAISphinx();
     ~MOAISphinx();
 
     void RegisterLuaClass(MOAILuaState& state);
 };
+
+#endif
 
 #endif
