@@ -5,10 +5,12 @@
 #================================================================#
 
 	include $(CLEAR_VARS)
+	include OptionalComponentsDefined.mk
 
 	LOCAL_MODULE 		:= moaiext-untz
 	LOCAL_ARM_MODE 		:= $(MY_ARM_MODE)
 	LOCAL_CFLAGS		:= -include $(MY_MOAI_ROOT)/src/zlcore/zl_replace.h
+	LOCAL_CFLAGS		+= $(DISABLE_SPHINX)
 
 	LOCAL_C_INCLUDES 	:= $(MY_HEADER_SEARCH_PATHS)
 	LOCAL_SRC_FILES 	+= $(MY_MOAI_ROOT)/src/aku/AKU-untz.cpp
@@ -18,7 +20,7 @@
 	LOCAL_SRC_FILES 	+= $(MY_MOAI_ROOT)/3rdparty/untz/src/UserAudioSource.cpp
 	LOCAL_SRC_FILES 	+= $(MY_MOAI_ROOT)/3rdparty/untz/src/BufferedAudioSource.cpp
 	LOCAL_SRC_FILES 	+= $(MY_MOAI_ROOT)/3rdparty/untz/src/BufferedAudioSourceThread.cpp
-	LOCAL_SRC_FILES 	+= $(MY_MOAI_ROOT)/3rdparty/untz/src/OggAudioSource.cpp 
+	LOCAL_SRC_FILES 	+= $(MY_MOAI_ROOT)/3rdparty/untz/src/OggAudioSource.cpp
 	LOCAL_SRC_FILES 	+= $(MY_MOAI_ROOT)/3rdparty/untz/src/native/android/UntzSystem.cpp
 	LOCAL_SRC_FILES 	+= $(MY_MOAI_ROOT)/3rdparty/untz/src/native/android/WaveFileAudioSource.cpp
 	LOCAL_SRC_FILES 	+= $(MY_MOAI_ROOT)/3rdparty/untz/src/native/android/WaveFile.cpp
